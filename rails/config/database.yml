@@ -8,11 +8,11 @@ default: &default
 development:
   <<: *default
   host: db
-  database: myapp_development
+  database: app_development
   password: password
 
 test:
   <<: *default
   host: db
-  database: myapp_test
+  database: app_test
   password: password
