@@ -7,6 +7,7 @@ import * as React from 'react'
 import '@/styles/destyle.css'
 import CurrentUserFetch from '@/components/CurrentUserFetch'
 import Header from '@/components/Header'
+import SuccessSnackbar from '@/components/Snackbar'
 import { styles } from '@/styles'
 
 import createEmotionCache from '@/styles/createEmotionCache'
@@ -34,6 +35,7 @@ export default function MyApp(props: MyAppProps): JSX.Element {
           </Box>
         </Box>
         <Component {...pageProps} />
+        <SuccessSnackbar />
       </ThemeProvider>
     </CacheProvider>
   )
