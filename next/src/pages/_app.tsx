@@ -34,7 +34,6 @@ export default function MyApp(props: MyAppProps): JSX.Element {
             <Component {...pageProps} />
           </Box>
         </Box>
-        <Component {...pageProps} />
         <SuccessSnackbar />
       </ThemeProvider>
     </CacheProvider>
