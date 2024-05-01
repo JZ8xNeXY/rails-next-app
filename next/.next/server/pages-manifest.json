@@ -3,8 +3,10 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/articles/[id]": "pages/articles/[id].js",
-  "/sign_in": "pages/sign_in.js",
   "/sign_out": "pages/sign_out.js",
+  "/articles/[id]": "pages/articles/[id].js",
+  "/current/articles/[id]": "pages/current/articles/[id].js",
+  "/sign_in": "pages/sign_in.js",
+  "/current/articles/edit/[id]": "pages/current/articles/edit/[id].js",
   "/current/articles": "pages/current/articles.js"
 }
