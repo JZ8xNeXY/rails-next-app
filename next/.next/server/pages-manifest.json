@@ -2,10 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
   "/sign_in": "pages/sign_in.js",
-  "/articles/[id]": "pages/articles/[id].js",
-  "/sign_out": "pages/sign_out.js",
-  "/current/articles/[id]": "pages/current/articles/[id].js",
-  "/current/articles": "pages/current/articles.js"
+  "/api/health_check": "pages/api/health_check.js",
+  "/": "pages/index.js",
+  "/articles/[id]": "pages/articles/[id].js"
 }
