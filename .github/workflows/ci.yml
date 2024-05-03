@@ -3,8 +3,7 @@ name: Continuous Integration
 
 # 当 workflow の実行タイミング
 # ブランチへの push 時
-on:
-  push:
+on: workflow_call
 
 # 当 workflow が行う処理
 jobs:
